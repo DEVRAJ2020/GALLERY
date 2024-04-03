@@ -5,7 +5,7 @@ import { Dimensions, FlatList, Image, ScrollView, StyleSheet, Text, TextInput, V
 const WIDTH = Dimensions.get('window').width;
 const HEIGHT = Dimensions.get('window').height;
 
-
+// app for searching image //
 const App = () => {
   const [data, setData] = useState([]);
   const [txt, setTxt] = useState(null)
